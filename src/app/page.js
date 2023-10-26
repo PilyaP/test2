@@ -4,6 +4,7 @@ import {
   Footer,
   Header,
   Hero,
+  Pricing,
   Services,
   ChatWindow,
 } from "@/components";
@@ -17,7 +18,7 @@ export default function Home() {
       <Services />
       {/* <Pricing /> */}
       <Faq />
-      <Footer />
+      {/* <Footer /> */}
       {/* <ChatWindow /> */}
       {/* <div id="myportal" /> */}
     </>
