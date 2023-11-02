@@ -2,14 +2,14 @@ import React from "react";
 import {
   About,
   Faq,
-  Footer,
   Header,
   Hero,
   Pricing,
   Services,
   ChatWindow,
+  Partners,
+  Certificates,
 } from "@/components";
-
 
 export default function Home() {
   return (
@@ -19,8 +19,10 @@ export default function Home() {
       <About />
       <Services />
       <Pricing />
+      <Partners />
+      <Certificates />
       <Faq />
-      {/* <Footer /> */}
+
       {/* <ChatWindow /> */}
       {/* <div id="myportal" /> */}
     </>

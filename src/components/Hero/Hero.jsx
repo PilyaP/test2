@@ -27,7 +27,7 @@ export default function Hero() {
       <Image
         className="hidden md:block lg:hidden absolute md:top-[557px] md:right-[0px] md:-z-30 w-auto h-auto"
         src="/ellipse-tab-right.png"
-        alt="Ellipse Right"
+        alt="Ellipse-Right"
         width={84}
         height={20}
         priority
@@ -35,7 +35,7 @@ export default function Hero() {
       <Image
         className="hidden md:block lg:hidden  absolute top-[177px] left-[0px] md:-z-30 w-auto h-auto"
         src="/ellipse-tab-left.png"
-        alt="Ellipsetab Left"
+        alt="Ellipsetab-Left"
         width={154}
         height={224}
         priority
@@ -51,7 +51,11 @@ export default function Hero() {
       />
       <div className="container">
         <GetQuoteButton />
-        <div className="lg:flex lg:gap-[43px] lg:basis-2/4 lg:justify-center">
+        <div
+          className="lg:flex lg:gap-[43px] lg:basis-2/4 
+        
+        lg:justify-center"
+        >
           <div>
             <div
               className="text-center lg:mt-[234px] lg:mb-[278px] lg:w-[552px] w-[344px] md:max-w-[552px]
@@ -85,11 +89,11 @@ export default function Hero() {
               priority
             />
             <Image
-              className="hidden lg:block lg:absolute top-[467px] right-[595px] -z-30 h-auto"
+              className="hidden lg:block lg:absolute top-[478px] right-[572px] -z-30 h-auto"
               src="/ellipse7.png"
               alt="Ellipse7"
-              width={134}
-              height={226}
+              width={104}
+              height={206}
               priority
             />
           </div>

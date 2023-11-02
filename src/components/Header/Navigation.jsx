@@ -1,6 +1,7 @@
 import { Logo } from "@/components/Icons";
 import { links } from "@/content";
 import { animateScroll as scroll } from "react-scroll";
+import React from "react";
 
 function Navigation() {
   const scrollToTop = () => {
@@ -20,7 +21,7 @@ function Navigation() {
             Prime Preparation Center
           </p>
           <p className="text-[18px] text-captionalGrey leading-[24px]">
-            Warehouse
+            Warehouses
           </p>
         </div>
       </a>
