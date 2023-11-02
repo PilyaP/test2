@@ -1,14 +1,18 @@
 import Link from "next/link";
-
-export default function FooterCommonList({ data }) {
+import React from "react";
+export default function FooterCommonList({ data, hover = false }) {
   return (
     <ul>
-      {/* it may better to use inx as key insted href */}
-      {data.map(({ title, href }, inx, arr) => {
+      {data.map(({ label, id }, inx, arr) => {
         const lastEl = inx === arr.length;
         return (
-          <li key={inx} className={!lastEl ? "mb-[8px]" : ""}>
-            <Link href={href}>{title}</Link>
+          <li
+            key={inx}
+            className={`${!lastEl ? "mb-[8px]" : ""} ${
+              hover ? "hover:underline" : ""
+            }`}
+          >
+            <Link href={`#${id}`}>{label}</Link>
           </li>
         );
       })}
